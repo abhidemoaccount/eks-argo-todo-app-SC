@@ -30,7 +30,7 @@ jobs:
             git clone https://github.com/abhidemoaccount/project2-manifest.git
             git config --global user.email "abhiramraod@gmail.com"
             git config --global user.name "abhidemoaccount"
-            cd eks-argo-todo-app-kube-manifest
+            cd project2-manifest
             pwd
             echo $TAG
             sed -i "s/build-.*/build-$TAG/g" manifest/deployment.yaml
